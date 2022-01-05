@@ -5,21 +5,17 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
-.half-width-one{
+.half-width{
     width: 50%;
     padding-left: 5%;
-}
-.half-width-two{
-    width: 50%;
-    padding-left: 5%;
-    padding-bottom: 80%;
 }
 .half-width img{
-    width: 20%;
-    padding-right: 90%;
+    width: 80%;
+    padding-right: 150%;
 }
 .link-button{
     text-decoration: none;
@@ -32,7 +28,7 @@ section{
 #border-one{
     border-left: 15px solid;
     border-image: linear-gradient(blue, cyan);
-    border-image-slice: 50;
+    border-image-slice: 30%;
     padding-right: 1%;
     width: 50%;
   
