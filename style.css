@@ -33,3 +33,27 @@ h1{
     width: 50%;
   
 }
+.mission-item{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.mission-area-one{
+    background-color: hotpink;
+    background-repeat: no-repeat;
+}
+.mission-area-two{
+    background-color: gray;
+    background-repeat: no-repeat;
+}
+.mission-area-three{
+    background-color: gainsboro;
+    background-repeat: no-repeat;
+}
+.coding-flexible-container{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+}
+
